@@ -1,0 +1,25 @@
+PODS:
+  - FHXFoundation (0.1.2)
+  - FHXKit (0.1.1):
+    - FHXFoundation
+  - FHXRoutable (0.1.0):
+    - FHXKit
+    - FHXRoutableAssist
+  - FHXRoutableAssist (0.1.0)
+
+DEPENDENCIES:
+  - FHXRoutable (from `../`)
+
+EXTERNAL SOURCES:
+  FHXRoutable:
+    :path: ../
+
+SPEC CHECKSUMS:
+  FHXFoundation: 7cb1fb2098a278ec571bd06fea6673d882b0b2cb
+  FHXKit: aac8d51325a4e6e4204ad31fcf6c33ff10f7e6b2
+  FHXRoutable: 72a3da455453b77a0c787b98d806b9061dfdf3ee
+  FHXRoutableAssist: aef08b23773661de5c319e03934c63821ce64838
+
+PODFILE CHECKSUM: a9a8d0045a0c6230f2b92ffca7703d4baebeb3c5
+
+COCOAPODS: 1.4.0

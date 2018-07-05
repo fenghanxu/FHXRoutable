@@ -1,0 +1,15 @@
+use_frameworks!
+
+target 'FHXRoutable_Example' do
+  pod 'FHXRoutable', :path => '../'
+
+  target 'FHXRoutable_Tests' do
+    inherit! :search_paths
+
+
+  
+  end
+  
+  # pod 'FHXKit'
+  
+end

@@ -1,0 +1,6 @@
+framework module FHXRoutable {
+  umbrella header "FHXRoutable-umbrella.h"
+
+  export *
+  module * { export * }
+}
